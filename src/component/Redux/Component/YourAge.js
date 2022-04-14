@@ -15,7 +15,7 @@ const YourAge = (props) => {
 
 const mapStateToProps = state => {
   return {
-    age : state.age
+    age : state.yourAge.age
   }
 }
 

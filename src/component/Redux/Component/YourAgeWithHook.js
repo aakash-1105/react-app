@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { ageDown, ageUp, resetAge } from '../AgeReducer/AgeAction'
 
 const YourAgeWithHook = () => {
-    const age = useSelector(state => state.age)
+    const age = useSelector(state => state.yourAge.age)
     const dispatch = useDispatch()
   return (
     <div>
