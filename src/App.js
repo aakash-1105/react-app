@@ -5,6 +5,7 @@ import MemoCounter from './component/Hooks/MemoCounter';
 import ParentComponet from './component/Hooks/UseCallbackCounter/ParentComponet';
 import TopLevel from './component/Hooks/UseContextHook.js/TopLevel';
 import UseReducerHook from './component/Hooks/UseReducerHook';
+import RouterDom from './component/ReactRouterDomV6/RouterDOm';
 import ReduxRootComponent from './component/Redux/ReduxRootComponent';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       {/* <MemoCounter /> */}
       {/* <UseReducerHook /> */}
       {/* <TopLevel /> */}
-      <ReduxRootComponent />
+      {/* <ReduxRootComponent /> */}
+      <RouterDom />
     </div>
   );
 }
