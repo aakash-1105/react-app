@@ -1,6 +1,7 @@
 import './App.css';
 import ClickCounter from './component/HOC/ClickCounter';
 import HoverCounter from './component/HOC/HoverCounter';
+import FRParent from './component/Hooks/ForwarRef/FRParent';
 import MemoCounter from './component/Hooks/MemoCounter';
 import ParentComponet from './component/Hooks/UseCallbackCounter/ParentComponet';
 import TopLevel from './component/Hooks/UseContextHook.js/TopLevel';
@@ -17,7 +18,8 @@ function App() {
       {/* <ParentComponet /> */}
       {/* <MemoCounter /> */}
       {/* <UseReducerHook /> */}
-      <UseRefHook />
+      {/* <UseRefHook /> */}
+      <FRParent />
       {/* <TopLevel /> */}
       {/* <ReduxRootComponent /> */}
       {/* <RouterDom /> */}
