@@ -3,6 +3,7 @@ import ClickCounter from './component/HOC/ClickCounter';
 import HoverCounter from './component/HOC/HoverCounter';
 import FRParent from './component/Hooks/ForwarRef/FRParent';
 import MemoCounter from './component/Hooks/MemoCounter';
+import StateAndEffectHook from './component/Hooks/StateAndEffectHook';
 import ParentComponet from './component/Hooks/UseCallbackCounter/ParentComponet';
 import TopLevel from './component/Hooks/UseContextHook.js/TopLevel';
 import UseReducerHook from './component/Hooks/UseReducerHook';
@@ -17,6 +18,7 @@ function App() {
       {/* <ClickCounter />
       <HoverCounter /> */}
       {/* <ParentComponet /> */}
+      <StateAndEffectHook />
       {/* <MemoCounter /> */}
       {/* <UseReducerHook /> */}
       {/* <UseRefHook /> */}
@@ -24,7 +26,7 @@ function App() {
       {/* <TopLevel /> */}
       {/* <ReduxRootComponent /> */}
       {/* <RouterDom /> */}
-      <Parent />
+      {/* <Parent /> */}
     </div>
   );
 }
