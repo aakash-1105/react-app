@@ -6,6 +6,7 @@ import MemoCounter from './component/Hooks/MemoCounter';
 import StateAndEffectHook from './component/Hooks/StateAndEffectHook';
 import ParentComponet from './component/Hooks/UseCallbackCounter/ParentComponet';
 import TopLevel from './component/Hooks/UseContextHook.js/TopLevel';
+import UseEffectHook from './component/Hooks/UseEffectHook';
 import UseReducerHook from './component/Hooks/UseReducerHook';
 import UseRefHook from './component/Hooks/UseRefHook';
 import Parent from './component/LazyLoading/Parent';
@@ -18,7 +19,8 @@ function App() {
       {/* <ClickCounter />
       <HoverCounter /> */}
       {/* <ParentComponet /> */}
-      <StateAndEffectHook />
+      {/* <StateAndEffectHook /> */}
+      <UseEffectHook />
       {/* <MemoCounter /> */}
       {/* <UseReducerHook /> */}
       {/* <UseRefHook /> */}
