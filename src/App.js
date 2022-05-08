@@ -1,4 +1,5 @@
 import './App.css';
+import ParentCallBack from './component/CallBackToParent/ParentCallBack';
 import ClickCounter from './component/HOC/ClickCounter';
 import HoverCounter from './component/HOC/HoverCounter';
 import FRParent from './component/Hooks/ForwarRef/FRParent';
@@ -20,7 +21,7 @@ function App() {
       <HoverCounter /> */}
       {/* <ParentComponet /> */}
       {/* <StateAndEffectHook /> */}
-      <UseEffectHook />
+      {/* <UseEffectHook /> */}
       {/* <MemoCounter /> */}
       {/* <UseReducerHook /> */}
       {/* <UseRefHook /> */}
@@ -29,6 +30,7 @@ function App() {
       {/* <ReduxRootComponent /> */}
       {/* <RouterDom /> */}
       {/* <Parent /> */}
+      <ParentCallBack />
     </div>
   );
 }
