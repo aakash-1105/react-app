@@ -1,5 +1,7 @@
 import './App.css';
 import ParentCallBack from './component/CallBackToParent/ParentCallBack';
+import DynamicForm from './component/Dynamicforn/DynamicForm';
+import GenproUi from './component/GenproUi/GenproUi';
 import ClickCounter from './component/HOC/ClickCounter';
 import HoverCounter from './component/HOC/HoverCounter';
 import FRParent from './component/Hooks/ForwarRef/FRParent';
@@ -30,7 +32,9 @@ function App() {
       {/* <ReduxRootComponent /> */}
       {/* <RouterDom /> */}
       {/* <Parent /> */}
-      <ParentCallBack />
+      {/* <ParentCallBack /> */}
+      {/* <GenproUi /> */}
+      <DynamicForm />
     </div>
   );
 }

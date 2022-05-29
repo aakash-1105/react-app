@@ -4,6 +4,7 @@ import store from './store'
 import YourAge from './Component/YourAge'
 import YourAgeWithHook from './Component/YourAgeWithHook'
 import YourMoney from './Component/YourMoney'
+import Calculator from './CalculatorRedux/Calculator'
 
 const ReduxRootComponent = () => {
   return (
@@ -11,6 +12,7 @@ const ReduxRootComponent = () => {
         <div><YourAge /></div>
         <div><YourAgeWithHook /></div>
         <div><YourMoney /></div>
+        <div><Calculator /></div>
     </Provider>  
   )
 }
