@@ -3,6 +3,7 @@ import ParentCallBack from "./component/CallBackToParent/ParentCallBack";
 import CoditasCounter from "./component/CoditasCounter";
 import DynamicForm from "./component/Dynamicforn/DynamicForm";
 import GenproUi from "./component/GenproUi/GenproUi";
+import GridWithHiddenBox from "./component/GridWithHiddenBox/GridWithHiddenBox";
 import ClickCounter from "./component/HOC/ClickCounter";
 import HoverCounter from "./component/HOC/HoverCounter";
 import FRParent from "./component/Hooks/ForwarRef/FRParent";
@@ -40,7 +41,8 @@ function App() {
       {/* <DynamicForm /> */}
       {/* <CoditasCounter /> */}
       {/* <List /> */}
-      <TextInput />
+      {/* <TextInput /> */}
+      <GridWithHiddenBox />
     </div>
   );
 }
