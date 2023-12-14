@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.genpro{
+    padding: 0 40px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 250px;
+    padding: 10px 20px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.card .img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: grey;
+    margin-right: 10px;
+}
